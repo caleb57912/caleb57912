@@ -10,10 +10,10 @@ I build, attack, and defend my own network, then document every alert.
 <a href="mailto:csantora2000@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://github.com/caleb57912/SOC-Homelab"><img src="https://img.shields.io/badge/SOC_Homelab-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
-<img src="https://img.shields.io/badge/CompTIA-Security+-C8202F?style=for-the-badge">
-<img src="https://img.shields.io/badge/CompTIA-CySA+-C8202F?style=for-the-badge">
-<img src="https://img.shields.io/badge/CompTIA-SecurityX-C8202F?style=for-the-badge">
-<img src="https://img.shields.io/badge/ISC2-Associate_of_ISC2_(CISSP)-1B7340?style=for-the-badge">
+<img src="https://img.shields.io/badge/Security+-C8202F?style=for-the-badge">
+<img src="https://img.shields.io/badge/CySA+-C8202F?style=for-the-badge">
+<img src="https://img.shields.io/badge/SecurityX-C8202F?style=for-the-badge">
+<img src="https://img.shields.io/badge/Associate_of_ISC2_(CISSP)-1B7340?style=for-the-badge">
 
 </div>
 
