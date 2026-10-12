@@ -24,7 +24,7 @@ I build, attack, and defend my own network, then document every alert.
 | | |
 |---|---|
 | 🛡️ **Day job** | 2.5 years in MSP IT operations: endpoint security with SentinelOne, RMM automation with Datto, network infrastructure |
-| 🎓 **Education** | B.S. Cybersecurity (<graduation term>) |
+| 🎓 **Education** | B.S. Cybersecurity (December 2026) |
 | 🏠 **Homelab** | Proxmox server, Cisco Catalyst switching, Ubiquiti UDR firewall, built into a working SOC |
 | 🎯 **Focus** | Detection engineering, alert triage, incident response, MITRE ATT&CK |
 
