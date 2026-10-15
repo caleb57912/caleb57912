@@ -1,47 +1,51 @@
 <div align="center">
 
-# Hey, I'm Caleb
+# 🧪 Caleb's Lab
 
-**Aspiring SOC Analyst · Security+ · CySA+ · Home Lab Builder**
+**Homelab, security projects, and whatever I'm currently breaking and fixing.**
 
-I build, attack, and defend my own network, then document every alert.
-
-<a href="https://www.linkedin.com/in/caleb-santora-636a452a3/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="mailto:csantora2000@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://github.com/caleb57912/SOC-Homelab"><img src="https://img.shields.io/badge/SOC_Homelab-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-
-<img src="https://img.shields.io/badge/Security+-C8202F?style=for-the-badge">
-<img src="https://img.shields.io/badge/CySA+-C8202F?style=for-the-badge">
-<img src="https://img.shields.io/badge/SecurityX-C8202F?style=for-the-badge">
-<img src="https://img.shields.io/badge/Associate_of_ISC2_(CISSP)-1B7340?style=for-the-badge">
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white">
+<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white">
 
 </div>
 
 ---
 
-## 🧭 At a glance
+## 🏠 The lab
 
 | | |
 |---|---|
-| 🛡️ **Day job** | 2.5 years in MSP IT operations: endpoint security with SentinelOne, RMM automation with Datto, network infrastructure |
-| 🎓 **Education** | B.S. Cybersecurity (December 2026) |
-| 🏠 **Homelab** | Proxmox server, Cisco Catalyst switching, Ubiquiti UDR firewall, built into a working SOC |
-| 🎯 **Focus** | Detection engineering, alert triage, incident response, MITRE ATT&CK |
+| 🖥️ **Compute** | Proxmox VE server running VMs, game servers, and a dedicated SOC segment |
+| 🌐 **Network** | Ubiquiti UDR at the edge, Cisco Catalyst 3750 for switching and traffic mirroring |
+| 🛡️ **Security** | A SOC on its own VLAN watching the real home network |
 
 ---
 
 ## 🔬 Projects
 
-| Project | What it does |
-|---|---|
-| [SOC-Homelab](https://github.com/caleb57912/SOC-Homelab) | A full SOC on my own hardware: SIEM, endpoint telemetry, attack simulation, custom detections, and incident reports |
+| Project | What it is | Status |
+|---|---|---|
+| [SOC-Homelab](https://github.com/caleb57912/SOC-Homelab) | A Security Operations Center segment defending my home network: Splunk, Wazuh, Zeek, Suricata, MISP, TheHive, Shuffle, Velociraptor | 🚧 Building |
 
 ---
 
-## 🧰 Tools I use
+## 🔧 Currently working on
 
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square)
-![SentinelOne](https://img.shields.io/badge/SentinelOne-6B0AEA?style=flat-square)
+- Building the SOC VLAN and the systems that run on it
+- Getting every log source into Splunk
+- Writing up each case as it comes in
+
+---
+
+## 🧰 In the lab
+
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square)
+![Zeek](https://img.shields.io/badge/Zeek-2B5797?style=flat-square)
+![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
