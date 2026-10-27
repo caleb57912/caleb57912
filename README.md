@@ -7,6 +7,7 @@
 <a href="https://github.com/caleb57912/SOC-Homelab"><img src="https://img.shields.io/badge/SOC_Homelab-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 <a href="https://github.com/caleb57912/RMM-Homelab"><img src="https://img.shields.io/badge/RMM_Homelab-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 <a href="https://github.com/caleb57912/GRC-Homelab"><img src="https://img.shields.io/badge/GRC_Homelab-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://github.com/caleb57912/AWS-Migration-Design"><img src="https://img.shields.io/badge/AWS_Migration_Design-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
 </div>
 
@@ -29,7 +30,7 @@ I run my home network like a small organization: one program, split into three r
 
 | Project | What it is | Status |
 |---|---|---|
-| [SOC-Homelab](https://github.com/caleb57912/SOC-Homelab) | **Detect and respond.** A Security Operations Center segment defending my home network: Splunk, Sysmon, Pi-hole, Wazuh, Zeek, Suricata, MISP, TheHive, Shuffle, Velociraptor | 🚧 Building · Phase 2 |
+| [SOC-Homelab](https://github.com/caleb57912/SOC-Homelab) | **Detect and respond.** A Security Operations Center segment defending my home network: Splunk, Sysmon, Pi-hole, Wazuh, Zeek, Suricata, MISP, TheHive, Shuffle, Velociraptor | 🚧 Building · Phase 3 |
 | [RMM-Homelab](https://github.com/caleb57912/RMM-Homelab) | **Manage and automate.** Self-hosted RMM for inventory, patching, scripting and remote access, run the way an MSP runs a client | 📐 Planned |
 | [GRC-Homelab](https://github.com/caleb57912/GRC-Homelab) | **Govern.** Policies, a CIS Controls v8 assessment backed by real evidence, a risk register and compliance reporting | 📐 Planned |
 
@@ -41,6 +42,12 @@ flowchart LR
     SOC -->|benchmark scores, logging coverage| GRC
 ```
 
+### ☁️ Cloud
+
+| Project | What it is | Status |
+|---|---|---|
+| [AWS-Migration-Design](https://github.com/caleb57912/AWS-Migration-Design) | **Design and migrate.** A HIPAA-aligned AWS migration for a fictional 8-clinic healthcare network: multi-AZ architecture, AWS HealthImaging for DICOM, Terraform for the full design, and a live deploy slice that's verified and then torn down | 🚧 Building · Phase 1 |
+
 ---
 
 ## 🔧 Currently working on
@@ -48,6 +55,7 @@ flowchart LR
 - Getting every log source into Splunk: firewall, switch, hypervisor, DNS and endpoint telemetry are in
 - Endpoint onboarding as a single script: Sysmon, audit policy and a Splunk forwarder managed by a deployment server
 - Planning the management VLAN that the RMM and GRC platforms will run on
+- Designing an AWS migration for a healthcare clinic network, with a reason recorded for every architecture decision
 
 ---
 
@@ -70,3 +78,7 @@ flowchart LR
 ![Tactical RMM](https://img.shields.io/badge/Tactical_RMM-1F6FEB?style=flat-square)
 ![CISO Assistant](https://img.shields.io/badge/CISO_Assistant-6E40C9?style=flat-square)
 ![CIS Controls v8](https://img.shields.io/badge/CIS_Controls_v8-2EA043?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat-square)
+![AWS CDK](https://img.shields.io/badge/AWS_CDK-FF9900?style=flat-square)
